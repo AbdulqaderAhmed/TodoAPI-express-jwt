@@ -44,7 +44,6 @@ export const register = expressAsyncHandler(async (req, res) => {
           id: user.id,
           username: user.username,
           email: user.email,
-          token: user.token,
         },
       });
     } else {
